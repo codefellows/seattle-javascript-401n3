@@ -26,10 +26,10 @@ lecture-01 modular patterns
 
 #### What is Node?
 * [about node](https://nodejs.org/en/about/)
-* asynchronous event driven framework for programming you opperating system in javascript!
-* Node only does work when events are triggered. Other wise it sleeping and waiting for events to occure.
+* asynchronous event driven framework for programming you operating system in javascript!
+* Node only does work when events are triggered. Other wise it sleeping and waiting for events to occur.
  * When an asynchronous task has complete node employs a callback function to handle the event completion
-* Node I/O is non blocking, so we dont have to worry about complicated conncurent programming techneques
+* Node I/O is non blocking, so we don't have to worry about complicated concurrent programming techniques
 * Node is composed of 4 main components
  * [V8](https://developers.google.com/v8/)
  * [libuv](https://github.com/libuv/libuv)
@@ -38,24 +38,24 @@ lecture-01 modular patterns
  * [C++ Node Api](three://nodejs.org/dist/latest-v4.x/docs/api/)
 
 #### Reading the Node Docs
-* Node has a relitvly fast deployment cycle, make sure you read the docs for the version of node you are using
+* Node has a relatively fast deployment cycle, make sure you read the docs for the version of node you are using
 * stability index
- * 0 - depricated
- * 1 - Expieramental
+ * 0 - deprecated
+ * 1 - Experimental
  * 2 - Stable
- * 3 - Locked 
+ * 3 - Locked
 
 # Modular Patterns
 * [CommonJS Modules](http://www.commonjs.org/specs/modules/1.0/)
  * A Spec that defines how defines how modules should be written in javascript
-* `require()` is the functuion used to import modules in CommonJS
- * works with relitive paths, node API, and npm modules
+* `require()` is the function used to import modules in CommonJS
+ * works with relative paths, node API, and npm modules
 * `__dirname` a global variable that represents the path to the directory of the current file
 
-## `module.exports` and `exports` 
+## `module.exports` and `exports`
 * `module.exports`
- * module is an obeject on the global object
- * `exports` is the property on `module` that is loaded when a "module" gets required from a `requre()` call
+ * module is an object on the global object
+ * `exports` is the property on `module` that is loaded when a "module" gets required from a `require()` call
  * by default exports is an empty object
 
 #### module.exports
@@ -69,7 +69,7 @@ module.exports = function(){
 ```
 
 #### exports
-* add values to propertys of the exports of objects if you want to export multiple things
+* add values to properties of the exports of objects if you want to export multiple things
 ``` javascript
 // export a hello and goodbye functions
 exports.hello = function(){
@@ -85,9 +85,9 @@ exports.goodbye = function(){
 
 ## Types
 * Unit Test
- * test how individula modules work **(functions)**
+ * test how individual modules work **(functions)**
 * Integration Test
- * test how modules work to gether when combined
+ * test how modules work together when combined
 * End to End
  * test the final product
 
@@ -95,10 +95,10 @@ exports.goodbye = function(){
 * TDD
  * Write a test before you write code
  * Write code to pass the test
- * Helps create short dev cyles
+ * Helps create short dev cycles
  * Helps create less buggy code (less debugging time)
 * BDD
- * combines principes of TDD with Domain Driven Design
+ * combines principles of TDD with Domain Driven Design
  * What to test and what not to test
  * How much to test at a time
  * What to call the tests
@@ -106,17 +106,17 @@ exports.goodbye = function(){
 ## Mocha
  * unit testing framework
  * used to describe and run tests for functions  
- 
+
 ## Node Assert Module
 * assertion library
 * used to compare different types and throw errors
 
 ## Chai
  * assertion library
- * used to intelegently compare javascript types and throw meaningful errors 
+ * used to intelligently compare javascript types and throw meaningful errors
 
 # setting up a 401n1 dev workspace
-* your a developer now your not allowed to have bad file organization habbits
-* make the directory `$HOME/cf/401n1`
+* your a developer now your not allowed to have bad file organization habits
+* make the directory `$HOME/cf/401n3`
 * use verbose file and directory names
-* use eather `-` or `_` to seporate words in your file names....
+* use either `-` or `_` to separate words in your file names....
