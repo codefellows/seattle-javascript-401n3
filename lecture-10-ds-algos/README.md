@@ -5,7 +5,6 @@
 * Abstract Data Structures
 * Stacks
 * Queues
+* Whiteboarding
 
-## Stacks
-
-## Queues
+* call, bind, apply
