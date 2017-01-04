@@ -33,8 +33,8 @@
 * Doubly Linked Lists commonly store both the Head and Tail pointers.
 
 #### Exercise
-* Implement Remove and Pop methods of Singly Linked List
-* Implement Remove and Pop methods of Doubly Linked List
+* Implement removeFromHead and RemoveFromLastNode methods of Singly Linked List
+* Implement removeFromHead and RemoveFromLastNode methods of Doubly Linked List
 
 
 [linked lists]: https://www.youtube.com/watch?v=njTh_OwMljA
