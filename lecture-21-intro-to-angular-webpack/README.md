@@ -53,13 +53,13 @@
 
     'use strict';
 
-    const HTMLPlugin = require('html-webpack-plugin');
+    const HTMLPlugin = require('html-webpack-plugin')
 
     module.exports = {
       entry: `${__dirname}/app/entry.js`,
       output: {
         filename: 'bundle.js',
-        path: 'build'
+        path: `./build`
       },
       plugins: [
         new HTMLPlugin({
@@ -70,10 +70,11 @@
         loaders: [
           {
             test: /\.scss$/,
-            loader: 'style!css!sass!'
+            use: ['style-loader', 'css-loader', 'sass-loader']
           }
         ]
       }
-    };
+    }
+
 
     ```
