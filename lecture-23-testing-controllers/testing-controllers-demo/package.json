@@ -7,7 +7,7 @@
     "build": "./node_modules/webpack/bin/webpack.js",
     "watch": "webpack-dev-server --inline --hot",
     "test-watch": "./node_modules/karma/bin/karma start",
-    "test": "./node_modules/karma/bin/karma start --single-run"
+    "test": "karma start --single-run"
   },
   "keywords": [],
   "author": "",
