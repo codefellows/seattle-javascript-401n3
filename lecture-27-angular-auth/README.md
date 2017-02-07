@@ -1,4 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) 28: Client Side Auth
+![cf](http://i.imgur.com/7v5ASc8.png) 27: Client Side Auth
 =====================================
 
 ## Auth Service

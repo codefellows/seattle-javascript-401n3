@@ -1,4 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) 29: Angular CRUD
+![cf](http://i.imgur.com/7v5ASc8.png) 28: Angular CRUD
 =====================================
 
 ## CRUD Services

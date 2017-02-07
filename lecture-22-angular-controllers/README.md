@@ -1,4 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) 21: Angular Controllers
+![cf](http://i.imgur.com/7v5ASc8.png) 22: Angular Controllers
 =====================================
 
 ## Getting Started with Controllers

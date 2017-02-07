@@ -1,4 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) 27: Client Side Routing
+![cf](http://i.imgur.com/7v5ASc8.png) 26: Client Side Routing
 =====================================
 
 ## Client Side Routing
