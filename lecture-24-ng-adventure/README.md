@@ -1,4 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) 23: ngAdventure
+![cf](http://i.imgur.com/7v5ASc8.png) 24: ngAdventure
 =====================================
 
 ## Directives
@@ -39,4 +39,3 @@
     * we use services to build libraries for handling things like state and AJAX requests
     * angular services can be injected into controllers and other services for added layers of modularity
     * we'll be using services in the `ngAdventure` application to manage our map and player procedural logic and state
-    
