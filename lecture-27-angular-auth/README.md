@@ -34,6 +34,7 @@
 
 ## Webpack Config for 2.x
 Below is the webpack config for migrating to 2.x
+**Note: Don't forget to manually modify the version requirements for `extract-text-webpack-plugin` and `webpack` your package.json**
 ```javascript
 'use strict'
 
