@@ -69,7 +69,7 @@ if(production) { // Not required until we move to production
 
 module.exports = {
   entry: `${__dirname}/app/entry.js`,
-  devtools: production ? false : 'source-map', // Source-map is the desired value for debugging
+  devtool: production ? false : 'source-map', // Source-map is the desired value for debugging
   output: {
     filename: 'bundle.js',
     path: `${__dirname}/app/build` // Absolute path required for webpack 2.x
