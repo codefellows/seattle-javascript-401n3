@@ -1,0 +1,18 @@
+<section class="home">
+  <create-gallery></create-gallery>
+
+  <input type="number" ng-model="homeCtrl.galleryLimit" value="100">
+
+  <div class="gallery-item-container">
+    <ul>
+      <gallery-item
+        ng-repeat="item in homeCtrl.galleries | sortGalleries : homeCtrl.galleryLimit"
+        gallery="item"
+        delete-done="homeCtrl.galleryDeleteDone(galleryData)"
+        ng-click="homeCtrl.currentGallery = item">
+      </gallery-item>
+    </ul>
+  </div>
+
+  <thumbnail-container ng-if="homeCtrl.currentGallery" gallery="homeCtrl.currentGallery"></thumbnail-container></thumbnail-container>
+</section>
