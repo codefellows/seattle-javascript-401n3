@@ -1,0 +1,37 @@
+@import "../../scss/lib/theme/vars";
+
+.join-inner {
+
+  div:last-child {
+    margin-top: 1.75vw;
+    text-align: right;
+    font-size: 2vw;
+
+    p {
+      display: inline;
+      margin-right: 1vw;
+    }
+
+    a {
+      margin-right: 1.5vw;
+    }
+  }
+}
+
+.test-section {
+  margin-top: $gutter-std;
+
+  * {
+    font-size: 2.5vw;
+  }
+
+  div {
+    &:not(.panel-group) {
+      padding: $gutter-sm;
+    }
+  }
+
+  p {
+    line-height: 4vw;
+  }
+}
